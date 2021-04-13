@@ -1,0 +1,673 @@
+body
+    position: absolute
+    display: flex
+    flex-direction: column
+    margin: 0
+    width: 100%
+    overflow-x: hidden
+    max-width: 100%
+
+@media (min-width: 900px)  
+    #home  
+        position: static
+        left: calc(50vw - 450px)
+        width: 100%
+        height: 100vh
+    
+    #home1  
+        position: absolute
+        height: 100vh
+        left: calc(50vw - 450px)
+        margin: 0
+        top: 0px
+        z-index: 0
+    
+    #home2  
+        position: absolute
+        left: calc(50vw - 450px)
+        height: 100vh
+        margin: 0
+        top: 0px
+        z-index: -1
+    
+    #home_filled  
+        position: absolute
+        top: 0%
+        right: 0%
+        background-color: #73D0BE
+        width: 40%
+        height: 100vh
+        z-index: -2
+    
+    #download_frame  
+        position: absolute
+        left: calc(50vw - 450px)
+        height: 100vh
+        margin: 0
+        top: 0px
+        z-index: 1
+    
+    #download_text  
+        position: absolute
+        left: calc(50vw - 450px + 72vh)
+        top: 44.1vh
+        z-index: 2
+            a
+                font-size: 4vh
+                color: #0D2E26
+                font-weight: bold
+                text-decoration: none
+                transform: scale(0.48)      
+    
+    #slogan1  
+        position: absolute
+        font-size: 6vh
+        letter-spacing: 0.7vh
+        color: #0D2E26
+        font-weight: bold
+        left: calc(50vw - 450px + 52.5vh)
+        top: 51vh
+        transform: scale(0.48)
+    
+    #slogan2  
+        position: absolute
+        font-size: 6vh
+        letter-spacing: 0.4vh
+        color: #0D2E26
+        font-weight: bold
+        left: calc(50vw - 450px + 67vh)
+        top: 56.5vh
+        transform: scale(0.48)
+    
+    .menu_block  
+        position: absolute
+        width: 45vw
+        height: 6vh
+        right: 0%
+        top: 85vh
+        transform: scale(0.48)
+        z-index: 1
+    
+    .font_block  
+        position: absolute
+        width: 100%
+        height: 100%
+        display: flex
+        justify-content: space-between
+            a  
+                position: static
+                font-style: normal
+                font-size: 5vh
+                line-height: 6vh
+                white-space: nowrap
+                color: #ffffff
+    
+    .tag  
+        position: static
+        cursor: pointer
+    
+    #idea  
+        position: static
+        width: 100%
+        height: 100vh
+        background-color: #A3D7D2
+        
+        align-self: flex-start
+    
+    .logo  
+        position: absolute
+        width: 28vw
+        top: 100vh
+        left: -6vw
+    
+    #text1  
+        position: absolute
+        top: 130vh
+        left: 30vw
+        width: 50%
+        font-size: 2.5vw
+        letter-spacing: 0.5vh
+        color: #ffffff
+    
+    #about_us  
+        background-color: #A3D7D2
+        position: static
+        width: 100%
+        height: 100vh
+        overflow: hidden
+        align-self: flex-start
+    
+    #us1  
+        position: absolute
+        top: 200vh
+        height: 100vh
+        left: calc(50vw - 450px)
+        margin: 0
+        z-index: 0
+    
+    #us2  
+        position: absolute
+        top: calc(200vh - 50vw + 450px)
+        margin-top: 0%
+        width: 100%
+        margin: 0
+        z-index: 2
+    
+    #title_white  
+        position: absolute
+        top: calc(206vh - 5vw + 45px)
+        left: 5vw
+        font-size: 6vw
+        font-weight: 800
+        color: #ffffff
+        transform: scale(0.48)
+    
+    #member1  
+        position: absolute
+        top: 267.5vh
+        left: calc(-13vw + 5vw - 45px)
+        width: 25%
+        z-index: 1
+    
+    #member2  
+        position: absolute
+        top: 261vh
+        left: calc(14.5vw - 10vw + 90px)
+        width: 25%
+        z-index: 1
+    
+    #member3  
+        position: absolute
+        top: calc(257vh - 12vw + 108px)
+        left: 27vw
+        width: 25%
+        z-index: 1
+    
+    #member4  
+        position: absolute
+        top: calc(270vh - 5vw + 45px)
+        left: 51vw
+        width: 19%
+        z-index: 1
+    
+    #member5  
+        position: absolute
+        top: calc(260vh - 10vw + 90px)
+        left: 68.5vw
+        width: 18%
+        z-index: 1
+    
+    #member6  
+        position: absolute
+        top: calc(266.5vh - 6vw + 54px)
+        left: 85vw
+        width: 20%
+        z-index: 1
+    
+    #box1  
+        position: absolute
+        top: 273vh
+        left: calc(-4vw + 5vw - 45px)
+        width: 15%
+        height: 13vw
+        z-index: 3
+    
+    #box2  
+        position: absolute
+        top: 266vh
+        left: calc(16vw - 10vw + 90px)
+        width: 15%
+        height: 13vw
+        z-index: 3
+    
+    #box3  
+        position: absolute
+        top: calc(260vh - 12vw + 108px)
+        left: 35vw
+        width: 15%
+        height: 13vw
+        z-index: 3
+    
+    #box4  
+        position: absolute
+        top: calc(270vh - 5vw + 45px)
+        left: 52vw
+        width: 15%
+        height: 13vw
+        z-index: 3
+    
+    #box5  
+        position: absolute
+        top: calc(258vh - 10vw + 90px)
+        left: 70vw
+        width: 15%
+        height: 13vw
+        z-index: 3
+    
+    #box6  
+        position: absolute
+        top: calc(266.5vh - 6vw + 54px)
+        left: 86vw
+        width: 15%
+        height: 13vw
+        z-index: 3
+    
+    #intro1  
+        position: absolute
+        left: 20%
+        top: 218vh
+        font-size: calc(2vw - 1vw + 9px)
+        color: #ffffff
+    
+    #intro2  
+        position: absolute
+        left: 20%
+        top: 218vh
+        font-size: calc(2vw - 1vw + 9px)
+        color: #ffffff
+    
+    #intro3  
+        position: absolute
+        left: 20%
+        top: 218vh
+        font-size: calc(2vw - 1vw + 9px)
+        color: #ffffff
+    
+    #intro4  
+        position: absolute
+        left: 20%
+        top: 218vh
+        font-size: calc(2vw - 1vw + 9px)
+        color: #ffffff
+    
+    #intro5  
+        position: absolute
+        left: 20%
+        top: 218vh
+        font-size: calc(2vw - 1vw + 9px)
+        color: #ffffff
+    
+    #intro6  
+        position: absolute
+        left: 20%
+        top: 218vh
+        font-size: calc(2vw - 1vw + 9px)
+        color: #ffffff
+    
+    #photo1  
+        position: absolute
+        left: 72%
+        top: 210vh
+        width: 17%
+    
+    #photo2  
+        position: absolute
+        left: 72%
+        top: 210vh
+        width: 17%
+    
+    #photo3  
+        position: absolute
+        left: 72%
+        top: 210vh
+        width: 17%
+    
+    #photo4  
+        position: absolute
+        left: 72%
+        top: 210vh
+        width: 17%
+    
+    #photo5  
+        position: absolute
+        left: 72%
+        top: 210vh
+        width: 17%
+    
+    #photo6  
+        position: absolute
+        left: 72%
+        top: 210vh
+        width: 17%
+    
+    #web_bottom  
+        width: 100%
+        background-color: rgb(51, 49, 49)
+        height: 10vw
+        z-index: 3
+    
+
+
+@media (max-width: 900px)
+    #home  
+        position: static
+        width: 100%
+        height: 62vw
+    
+    #home1  
+        position: absolute
+        width: 100%
+        margin: 0
+        top: 0px
+        z-index: 0
+    
+    #home2  
+        position: absolute
+        width: 100%
+        margin: 0
+        top: 0px
+        z-index: -1
+    
+    #download_frame  
+        width: 100%
+    
+    #download_text  
+        position: absolute
+        left: 47%
+        top: 28vw
+            a  
+                font-size: 2.6vw
+                color: #0D2E26
+                font-weight: bold
+                text-decoration: none
+                transform: scale(0.48)
+    
+    #slogan1  
+        position: absolute
+        font-size: 4vw
+        color: #0D2E26
+        font-weight: bold
+        left: 35.5%
+        top: 32vw
+        transform: scale(0.48)
+    
+    #slogan2  
+        position: absolute
+        font-size: 4vw
+        color: #0D2E26
+        font-weight: bold
+        left: 45%
+        top: 35.2vw
+        transform: scale(0.48)
+    
+    .menu_block  
+        position: absolute
+        font-size: 3vw
+        width: 45vw
+        height: 4vw
+        right: 0%
+        top: 50vw
+        transform: scale(0.48)
+        z-index: 1
+    
+    .font_block  
+        position: absolute
+        width: 100%
+        height: 100%
+        display: flex
+        justify-content: space-between
+            a  
+                position: static
+                height: 6vw
+                font-style: normal
+                font-size: 3vw
+                white-space: nowrap
+                line-height: 6vw
+                color: #ffffff
+    
+    .tag  
+        position: static
+        cursor: pointer
+    
+    #idea  
+        position: static
+        width: 100%
+        background-color: #A3D7D2
+        height: 62vw
+        align-self: flex-start
+    
+    .logo  
+        position: absolute
+        width: 28vw
+        top: 62vw
+        left: -6vw
+    
+    #text1  
+        position: absolute
+        top: 90vw
+        left: 30vw
+        width: 50%
+        font-size: 2.5vw
+        letter-spacing: 0.5vh
+        color: #ffffff
+    
+    #about_us  
+        background-color: #A3D7D2
+        position: static
+        width: 100%
+        height: 62vw
+        overflow: hidden
+        align-self: flex-start
+    
+    #us1  
+        position: absolute
+        top: 124vw
+        width: 100%
+        margin: 0
+        z-index: 0
+    
+    #us2  
+        position: absolute
+        top: 124vw
+        margin-top: 0%
+        width: 100%
+        margin: 0
+        z-index: 2
+    
+    #title_white  
+        position: absolute
+        top: 130vw
+        left: 5vw
+        font-size: 6vw
+        font-weight: 800
+        color: #ffffff
+        transform: scale(0.48)
+    
+    #member1  
+        position: absolute
+        top: 168vw
+        left: -11.5vw
+        width: 25%
+        z-index: 1
+    
+    #member2  
+        position: absolute
+        top: 165vw
+        left: 13vw
+        width: 25%
+        z-index: 1
+    
+    #member3  
+        position: absolute
+        top: 161vw
+        left: 27vw
+        width: 25%
+        z-index: 1
+    
+    #member4  
+        position: absolute
+        top: 169vw
+        left: 51vw
+        width: 19%
+        z-index: 1
+    
+    #member5  
+        position: absolute
+        top: 162.5vw
+        left: 68.5vw
+        width: 18%
+        z-index: 1
+    
+    #member6  
+        position: absolute
+        top: 167vw
+        left: 85vw
+        width: 20%
+        z-index: 1
+    
+    #box1  
+        position: absolute
+        top: 171vw
+        left: -2.5vw
+        width: 15%
+        height: 13vw
+        z-index: 3
+    
+    #box2  
+        position: absolute
+        top: 170vw
+        left: 15vw
+        width: 15%
+        height: 13vw
+        z-index: 3
+    
+    #box3  
+        position: absolute
+        top: 165vw
+        left: 33vw
+        width: 15%
+        height: 13vw
+        z-index: 3
+    
+    #box4  
+        position: absolute
+        top: 169vw
+        left: 52vw
+        width: 15%
+        height: 13vw
+        z-index: 3
+    
+    #box5  
+        position: absolute
+        top: 160vw
+        left: 69vw
+        width: 15%
+        height: 13vw
+        z-index: 3
+    
+    #box6  
+        position: absolute
+        top: 167vw
+        left: 86vw
+        width: 15%
+        height: 13vw
+        z-index: 3
+    
+    #intro1  
+        position: absolute
+        left: 20%
+        top: 140vw
+        font-size: 2vw
+        color: #ffffff
+    
+    #intro2  
+        position: absolute
+        left: 20%
+        top: 213vh
+        font-size: 2vw
+        color: #ffffff
+    
+    #intro3  
+        position: absolute
+        left: 20%
+        top: 213vh
+        font-size: 2vw
+        color: #ffffff
+    
+    #intro4  
+        position: absolute
+        left: 20%
+        top: 213vh
+        font-size: 2vw
+        color: #ffffff
+    
+    #intro5  
+        position: absolute
+        left: 20%
+        top: 213vh
+        font-size: 2vw
+        color: #ffffff
+    
+    #intro6  
+        position: absolute
+        left: 20%
+        top: 213vh
+        font-size: 2vw
+        color: #ffffff
+    
+    #photo1  
+        position: absolute
+        left: 72%
+        top: 138vw
+        width: 17%
+    
+    #photo2  
+        position: absolute
+        left: 72%
+        top: 210vh
+        width: 17%
+    
+    #photo3  
+        position: absolute
+        left: 72%
+        top: 210vh
+        width: 17%
+    
+    #photo4  
+        position: absolute
+        left: 72%
+        top: 210vh
+        width: 17%
+    
+    #photo5  
+        position: absolute
+        left: 72%
+        top: 210vh
+        width: 17%
+    
+    #photo6  
+        position: absolute
+        left: 72%
+        top: 210vh
+        width: 17%
+    
+    #web_bottom  
+        position: absolute
+        top: 186vw
+        width: 100%
+        background-color: black
+        height: 10vw
+        z-index: 3
+    
+
+
+#title  
+    position: absolute
+    left: 2vw
+    top: 2vw
+    z-index: 3
+        a  
+            font-size: 3vw
+            color: #73D0BE
+            font-weight: 900
+            text-decoration: none
+            transform: scale(0.48)
+
+
+#bottom_text  
+    position: absolute
+    bottom: 1vw
+    left: 1vw
+    font-size: 1.2vw
+    letter-spacing: 0.2vw
+    color: #FFFFFF
