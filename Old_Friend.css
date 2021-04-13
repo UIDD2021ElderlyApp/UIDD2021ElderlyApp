@@ -3,39 +3,40 @@ body {
     display: flex;
     /* justify-content: space-between; */
     /* align-items: center; */
-    flex-direction:column;
-
+    flex-direction: column;
     margin: 0;
     width: 100%;
     /* height: auto; */
     overflow-x: hidden;
     max-width: 100%;
 }
-@media (min-width: 900px) { /******** width > 900 ********/
-    #home{
+
+@media (min-width: 900px) {
+    /******** width > 900 ********/
+    #home {
         /* position: relative; */
         position: static;
         left: calc(50vw - 450px);
         width: 100%;
         height: 100vh;
     }
-    #home1{
-        position:absolute;
+    #home1 {
+        position: absolute;
         height: 100vh;
         left: calc(50vw - 450px);
         margin: 0;
         top: 0px;
         z-index: 0;
     }
-    #home2{
-        position:absolute;
+    #home2 {
+        position: absolute;
         left: calc(50vw - 450px);
         height: 100vh;
         margin: 0;
         top: 0px;
         z-index: -1;
     }
-    #home_filled{
+    #home_filled {
         position: absolute;
         top: 0%;
         right: 0%;
@@ -44,28 +45,28 @@ body {
         height: 100vh;
         z-index: -2;
     }
-    #download_frame{
-        position:absolute;
+    #download_frame {
+        position: absolute;
         left: calc(50vw - 450px);
         height: 100vh;
         margin: 0;
         top: 0px;
         z-index: 1;
     }
-    #download_text{
+    #download_text {
         position: absolute;
         left: calc(50vw - 450px + 72vh);
         top: 44.1vh;
         z-index: 2;
     }
-    #download_text a{
+    #download_text a {
         font-size: 4vh;
         color: #0D2E26;
         font-weight: bold;
         text-decoration: none;
         transform: scale(0.48);
     }
-    #slogan1{
+    #slogan1 {
         position: absolute;
         font-size: 6vh;
         letter-spacing: 0.7vh;
@@ -75,7 +76,7 @@ body {
         top: 51vh;
         transform: scale(0.48);
     }
-    #slogan2{
+    #slogan2 {
         position: absolute;
         font-size: 6vh;
         letter-spacing: 0.4vh;
@@ -110,43 +111,46 @@ body {
         line-height: 6vh;
         white-space: nowrap;
         color: #ffffff;
-    }  
+    }
     .tag {
         position: static;
         cursor: pointer;
     }
-    #idea{
+    #idea {
         position: static;
         width: 100%;
         height: 100vh;
-        background-color: #A3D7D2;;
-        align-self:flex-start; /*貼齊上個子元素*/
+        background-color: #A3D7D2;
+        ;
+        align-self: flex-start;
+        /*貼齊上個子元素*/
     }
-    .logo{
+    .logo {
         position: absolute;
         width: 28vw;
         top: 100vh;
         left: -6vw;
     }
-    #text1{
+    #text1 {
         position: absolute;
-        top:130vh;
+        top: 130vh;
         left: 30vw;
         width: 50%;
         font-size: 2.5vw;
         letter-spacing: 0.5vh;
         color: #ffffff;
     }
-    #about_us{
+    #about_us {
         background-color: #A3D7D2;
         position: static;
         width: 100%;
         height: 100vh;
         overflow: hidden;
-        align-self:flex-start; /*貼齊上個子元素*/
+        align-self: flex-start;
+        /*貼齊上個子元素*/
     }
-    #us1{
-        position:absolute;
+    #us1 {
+        position: absolute;
         /* 用relative就會蓋住us2??? */
         top: 200vh;
         height: 100vh;
@@ -154,15 +158,15 @@ body {
         margin: 0;
         z-index: 0;
     }
-    #us2{
-        position:absolute;
+    #us2 {
+        position: absolute;
         top: calc(200vh - 50vw + 450px);
         margin-top: 0%;
         width: 100%;
         margin: 0;
         z-index: 2;
     }
-    #title_white{
+    #title_white {
         position: absolute;
         /* width: 18vw; */
         top: calc(206vh - 5vw + 45px);
@@ -172,14 +176,14 @@ body {
         color: #ffffff;
         transform: scale(0.48);
     }
-    #member1{
+    #member1 {
         position: absolute;
         top: 267.5vh;
         left: calc(-13vw + 5vw - 45px);
         width: 25%;
         z-index: 1;
     }
-    #member2{
+    #member2 {
         position: absolute;
         top: 261vh;
         /* left: 12vw; */
@@ -187,35 +191,35 @@ body {
         width: 25%;
         z-index: 1;
     }
-    #member3{
+    #member3 {
         position: absolute;
         top: calc(257vh - 12vw + 108px);
         left: 27vw;
         width: 25%;
         z-index: 1;
     }
-    #member4{
+    #member4 {
         position: absolute;
         top: calc(270vh - 5vw + 45px);
         left: 51vw;
         width: 19%;
         z-index: 1;
     }
-    #member5{
+    #member5 {
         position: absolute;
         top: calc(260vh - 10vw + 90px);
         left: 68.5vw;
         width: 18%;
         z-index: 1;
     }
-    #member6{
+    #member6 {
         position: absolute;
         top: calc(266.5vh - 6vw + 54px);
         left: 85vw;
         width: 20%;
         z-index: 1;
     }
-    #box1{
+    #box1 {
         position: absolute;
         top: 273vh;
         left: calc(-4vw + 5vw - 45px);
@@ -223,7 +227,7 @@ body {
         height: 13vw;
         z-index: 3;
     }
-    #box2{
+    #box2 {
         position: absolute;
         top: 266vh;
         left: calc(16vw - 10vw + 90px);
@@ -231,7 +235,7 @@ body {
         height: 13vw;
         z-index: 3;
     }
-    #box3{
+    #box3 {
         position: absolute;
         top: calc(260vh - 12vw + 108px);
         left: 35vw;
@@ -239,7 +243,7 @@ body {
         height: 13vw;
         z-index: 3;
     }
-    #box4{
+    #box4 {
         position: absolute;
         top: calc(270vh - 5vw + 45px);
         left: 52vw;
@@ -247,7 +251,7 @@ body {
         height: 13vw;
         z-index: 3;
     }
-    #box5{
+    #box5 {
         position: absolute;
         top: calc(258vh - 10vw + 90px);
         left: 70vw;
@@ -255,7 +259,7 @@ body {
         height: 13vw;
         z-index: 3;
     }
-    #box6{
+    #box6 {
         position: absolute;
         top: calc(266.5vh - 6vw + 54px);
         left: 86vw;
@@ -263,131 +267,131 @@ body {
         height: 13vw;
         z-index: 3;
     }
-    #intro1{
+    #intro1 {
         position: absolute;
         left: 20%;
         top: 218vh;
         font-size: calc(2vw - 1vw + 9px);
         color: #ffffff;
     }
-    #intro2{
+    #intro2 {
         position: absolute;
         left: 20%;
         top: 218vh;
         font-size: calc(2vw - 1vw + 9px);
         color: #ffffff;
     }
-    #intro3{
+    #intro3 {
         position: absolute;
         left: 20%;
         top: 218vh;
         font-size: calc(2vw - 1vw + 9px);
         color: #ffffff;
     }
-    #intro4{
+    #intro4 {
         position: absolute;
         left: 20%;
         top: 218vh;
         font-size: calc(2vw - 1vw + 9px);
         color: #ffffff;
     }
-    #intro5{
+    #intro5 {
         position: absolute;
         left: 20%;
         top: 218vh;
         font-size: calc(2vw - 1vw + 9px);
         color: #ffffff;
     }
-    #intro6{
+    #intro6 {
         position: absolute;
         left: 20%;
         top: 218vh;
         font-size: calc(2vw - 1vw + 9px);
         color: #ffffff;
     }
-
-    #photo1{
+    #photo1 {
         position: absolute;
         left: 72%;
         top: 210vh;
         width: 17%;
     }
-    #photo2{
+    #photo2 {
         position: absolute;
         left: 72%;
         top: 210vh;
         width: 17%;
     }
-    #photo3{
+    #photo3 {
         position: absolute;
         left: 72%;
         top: 210vh;
         width: 17%;
     }
-    #photo4{
+    #photo4 {
         position: absolute;
         left: 72%;
         top: 210vh;
         width: 17%;
     }
-    #photo5{
+    #photo5 {
         position: absolute;
         left: 72%;
         top: 210vh;
         width: 17%;
     }
-    #photo6{
+    #photo6 {
         position: absolute;
         left: 72%;
         top: 210vh;
         width: 17%;
     }
-    #web_bottom{
+    #web_bottom {
         width: 100%;
         background-color: rgb(51, 49, 49);
         height: 10vw;
         z-index: 3;
-    }        
-    
-}  
-@media (max-width: 900px){ /*********** width < 900 *********/
+    }
+}
+
+@media (max-width: 900px) {
+    /*********** width < 900 *********/
     /*缺少的屬性不會去抓另一個@media，所以用不到就刪掉*/
-    #home{
+    #home {
         /* position: relative; */
         position: static;
         width: 100%;
-        height:62vw;
+        height: 62vw;
     }
-    #home1{
-        position:absolute;
+    #home1 {
+        position: absolute;
         width: 100%;
         margin: 0;
         top: 0px;
         z-index: 0;
     }
-    #home2{
-        position:absolute;
+    #home2 {
+        position: absolute;
         width: 100%;
         margin: 0;
         top: 0px;
         z-index: -1;
     }
-    #download_frame{
+    #download_frame {
         width: 100%;
     }
-    #download_text{
+    #download_text {
         position: absolute;
         left: 47%;
         top: 28vw;
     }
-    #download_text a{
+    #download_text a {
         font-size: 2.6vw;
         color: #0D2E26;
         font-weight: bold;
         text-decoration: none;
         transform: scale(0.48);
     }
-    #slogan1{
+    #slogan1 {
         position: absolute;
         font-size: 4vw;
         color: #0D2E26;
@@ -396,7 +400,7 @@ body {
         top: 32vw;
         transform: scale(0.48);
     }
-    #slogan2{
+    #slogan2 {
         position: absolute;
         font-size: 4vw;
         color: #0D2E26;
@@ -433,58 +437,61 @@ body {
         white-space: nowrap;
         line-height: 6vw;
         color: #ffffff;
-    }  
+    }
     .tag {
         position: static;
         cursor: pointer;
     }
-    #idea{
+    #idea {
         position: static;
         width: 100%;
         background-color: #A3D7D2;
         height: 62vw;
-        align-self:flex-start; /*貼齊上個子元素*/
+        align-self: flex-start;
+        /*貼齊上個子元素*/
     }
-    .logo{
+    .logo {
         position: absolute;
         width: 28vw;
         top: 62vw;
         left: -6vw;
     }
-    #text1{
+    #text1 {
         position: absolute;
-        top:90vw;
+        top: 90vw;
         left: 30vw;
         width: 50%;
         font-size: 2.5vw;
-        letter-spacing: 0.5vh; /*字距*/
+        letter-spacing: 0.5vh;
+        /*字距*/
         color: #ffffff;
     }
-    #about_us{
+    #about_us {
         background-color: #A3D7D2;
         position: static;
         width: 100%;
         height: 62vw;
         overflow: hidden;
-        align-self:flex-start; /*貼齊上個子元素*/
+        align-self: flex-start;
+        /*貼齊上個子元素*/
     }
-    #us1{
-        position:absolute;
+    #us1 {
+        position: absolute;
         /* 用relative就會蓋住us2??? */
         top: 124vw;
         width: 100%;
         margin: 0;
         z-index: 0;
     }
-    #us2{
-        position:absolute;
+    #us2 {
+        position: absolute;
         top: 124vw;
         margin-top: 0%;
         width: 100%;
         margin: 0;
         z-index: 2;
     }
-    #title_white{
+    #title_white {
         position: absolute;
         /* width: 18vw; */
         top: 130vw;
@@ -494,49 +501,49 @@ body {
         color: #ffffff;
         transform: scale(0.48);
     }
-    #member1{
+    #member1 {
         position: absolute;
         top: 168vw;
         left: -11.5vw;
         width: 25%;
         z-index: 1;
     }
-    #member2{
+    #member2 {
         position: absolute;
         top: 165vw;
         left: 13vw;
         width: 25%;
         z-index: 1;
     }
-    #member3{
+    #member3 {
         position: absolute;
         top: 161vw;
         left: 27vw;
         width: 25%;
         z-index: 1;
     }
-    #member4{
+    #member4 {
         position: absolute;
         top: 169vw;
         left: 51vw;
         width: 19%;
         z-index: 1;
     }
-    #member5{
+    #member5 {
         position: absolute;
         top: 162.5vw;
         left: 68.5vw;
         width: 18%;
         z-index: 1;
     }
-    #member6{
+    #member6 {
         position: absolute;
         top: 167vw;
         left: 85vw;
         width: 20%;
         z-index: 1;
     }
-    #box1{
+    #box1 {
         position: absolute;
         top: 171vw;
         left: -2.5vw;
@@ -544,7 +551,7 @@ body {
         height: 13vw;
         z-index: 3;
     }
-    #box2{
+    #box2 {
         position: absolute;
         top: 170vw;
         left: 15vw;
@@ -552,7 +559,7 @@ body {
         height: 13vw;
         z-index: 3;
     }
-    #box3{
+    #box3 {
         position: absolute;
         top: 165vw;
         left: 33vw;
@@ -560,7 +567,7 @@ body {
         height: 13vw;
         z-index: 3;
     }
-    #box4{
+    #box4 {
         position: absolute;
         top: 169vw;
         left: 52vw;
@@ -568,7 +575,7 @@ body {
         height: 13vw;
         z-index: 3;
     }
-    #box5{
+    #box5 {
         position: absolute;
         top: 160vw;
         left: 69vw;
@@ -576,7 +583,7 @@ body {
         height: 13vw;
         z-index: 3;
     }
-    #box6{
+    #box6 {
         position: absolute;
         top: 167vw;
         left: 86vw;
@@ -584,109 +591,110 @@ body {
         height: 13vw;
         z-index: 3;
     }
-    #intro1{
+    #intro1 {
         position: absolute;
         left: 20%;
         top: 140vw;
         font-size: 2vw;
         color: #ffffff;
     }
-    #intro2{
+    #intro2 {
         position: absolute;
         left: 20%;
         top: 213vh;
         font-size: 2vw;
         color: #ffffff;
     }
-    #intro3{
+    #intro3 {
         position: absolute;
         left: 20%;
         top: 213vh;
         font-size: 2vw;
         color: #ffffff;
     }
-    #intro4{
+    #intro4 {
         position: absolute;
         left: 20%;
         top: 213vh;
         font-size: 2vw;
         color: #ffffff;
     }
-    #intro5{
+    #intro5 {
         position: absolute;
         left: 20%;
         top: 213vh;
         font-size: 2vw;
         color: #ffffff;
     }
-    #intro6{
+    #intro6 {
         position: absolute;
         left: 20%;
         top: 213vh;
         font-size: 2vw;
         color: #ffffff;
     }
-
-    #photo1{
+    #photo1 {
         position: absolute;
         left: 72%;
         top: 138vw;
         width: 17%;
     }
-    #photo2{
+    #photo2 {
         position: absolute;
         left: 72%;
         top: 210vh;
         width: 17%;
     }
-    #photo3{
+    #photo3 {
         position: absolute;
         left: 72%;
         top: 210vh;
         width: 17%;
     }
-    #photo4{
+    #photo4 {
         position: absolute;
         left: 72%;
         top: 210vh;
         width: 17%;
     }
-    #photo5{
+    #photo5 {
         position: absolute;
         left: 72%;
         top: 210vh;
         width: 17%;
     }
-    #photo6{
+    #photo6 {
         position: absolute;
         left: 72%;
         top: 210vh;
         width: 17%;
     }
-
-    #web_bottom{
+    #web_bottom {
         position: absolute;
         top: 186vw;
         width: 100%;
         background-color: black;
         height: 10vw;
         z-index: 3;
-    }        
+    }
 }
-#title{
+
+#title {
     position: absolute;
     left: 2vw;
     top: 2vw;
     z-index: 3;
 }
-#title a{
+
+#title a {
     font-size: 3vw;
     color: #73D0BE;
     font-weight: 900;
     text-decoration: none;
     transform: scale(0.48);
 }
-#bottom_text{
+
+#bottom_text {
     position: absolute;
     bottom: 1vw;
     left: 1vw;
