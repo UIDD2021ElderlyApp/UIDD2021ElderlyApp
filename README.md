@@ -10,8 +10,9 @@ install node-sass
 
 # clone the project and change to correct direct
 
-git clone https://github.com/UIDD2021ElderlyApp/UIDD2021ElderlyApp
-cd UIDD2021ElderlyApp
+    git clone https://github.com/UIDD2021ElderlyApp/UIDD2021ElderlyApp
+
+    cd UIDD2021ElderlyApp
 
 <h2>Compile</h2>
 
